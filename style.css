@@ -26,6 +26,7 @@ header #open.hide {
   position: fixed;
   top: 0;
   right: 0;
+  height: 50%;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#000000ff), to(#ffffff0a));
   background-image: linear-gradient(to bottom, #000000ff 0%, #ffffff0a 100%);
   text-align: center;
