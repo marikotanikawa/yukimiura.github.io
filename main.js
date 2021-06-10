@@ -1,14 +1,14 @@
-(function(){
+const open = document.getElementById('open');
+const overlay = document.querySelector('.overlay');
+const close = document.getElementById('close');
 
-    const show = document.getElementById('show');
-    const hide = document.getElementById('hide');
-    
-    show.addEventListener('click',function(){
-     document.body.className = 'open';
-    });
+open.addEventListener('click',()=> {
+    overlay.classList.add('show');
+    open.classList.add('hide');
+});
 
-    hide.addEventListener('click',function(){
-     document.body.className = '';
-    });
+close.addEventListener('click',()=> {
+    overlay.classList.remove('show');
+    open.classList.remove('hide');
+});
 
-})();
