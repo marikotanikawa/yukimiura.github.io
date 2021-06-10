@@ -30,10 +30,11 @@ header #open.hide {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#000000ff), to(#ffffff0a));
   background-image: linear-gradient(to bottom, #000000ff 0%, #ffffff0a 100%);
   text-align: center;
-  opacity: 0;
   pointer-events: none;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
+  -webkit-transform: translateX(250px);
+          transform: translateX(250px);
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
 }
 
 .overlay ul {
@@ -59,7 +60,8 @@ header #open.hide {
 }
 
 .overlay.show {
-  opacity: 1;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
   pointer-events: painted;
 }
 

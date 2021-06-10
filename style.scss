@@ -41,9 +41,9 @@ header {
     right: 0;
     background-image: linear-gradient(to bottom, #000000ff 0%, #ffffff0a 100%);
     text-align: center;
-    opacity: 0;
     pointer-events: none;
-    transition: 0.4s;
+    transform: translateX(250px);
+    transition: all 0.4s;
 
     ul {
         list-style: none;
@@ -68,7 +68,7 @@ header {
     }
 
     &.show {
-        opacity: 1;
+        transform: translateX(0);
         pointer-events: painted;
     }
 }
