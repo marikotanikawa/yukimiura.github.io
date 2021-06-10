@@ -25,7 +25,6 @@ header #open.hide {
 .overlay {
   position: fixed;
   top: 0;
-  bottom: 500px;
   right: 0;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#000000ff), to(#ffffff0a));
   background-image: linear-gradient(to bottom, #000000ff 0%, #ffffff0a 100%);
