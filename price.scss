@@ -1,0 +1,73 @@
+$tab: 900px;
+$pc: 1025px;
+
+@mixin pc {
+    @media (min-width: ($pc)) {
+        @content;
+    }
+}
+@mixin tab {
+    @media (min-width: ($tab)) {
+        @content;
+    }
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Barlow", "Noto Sans JP", sans-serif;
+    color: #666666;
+}
+
+#price_contents {
+    max-width: 599px;
+
+    .price_menu {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .price_title {
+        text-align: center;
+        font-weight: 300;
+        letter-spacing: 2px;
+        font-size: 1.5rem;
+        padding: 10px;
+        margin-bottom: 50px;
+    }
+
+    .menu {
+        margin-bottom: 80px;
+    }
+
+    h5 {
+        font-size: 16px;
+    }
+
+    .set {
+        font-weight: 300;
+        font-size: 15px;
+        // text-decoration: underline;
+
+    }
+
+    p {
+        font-size: 14px;
+        font-weight: 100;
+    }
+
+    .sinpu {
+        margin-bottom: 50px;
+    }
+    
+
+    .price_back {
+        text-align: center;
+        margin: 50px;
+
+        a {
+            text-decoration: none;
+            color: #666666;
+        }
+    }
+}
