@@ -16,12 +16,12 @@ body {
     padding: 0;
     margin: 0;
     font-family: "Barlow", sans-serif;
-    background-image: url(img/top.png);
+    background-image: url(img/top1.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    color: #444444;
+    color: #666666;
 }
 header {
     text-align: right;
@@ -33,6 +33,18 @@ header {
         }
     }
 }
+
+// top３用
+// header {
+//     text-align: left;
+
+//     #open {
+//         font-size: 2rem;
+//         &.hide {
+//             display: none;
+//         }
+//     }
+// }
 
 .overlay {
     position: fixed;
@@ -73,6 +85,46 @@ header {
     }
 }
 
+// top３用
+// .overlay {
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//     height: 50%;
+//     background-image: linear-gradient(to bottom, #000000ff 0%, #ffffff0a 100%);
+//     text-align: center;
+//     pointer-events: none;
+//     transform: translate(-300px);
+//     transition: all 0.4s;
+
+//     ul {
+//         list-style: none;
+//         padding: 30px 30px 30px 30px;
+//     }
+
+//     li {
+//         margin-bottom: 15px;
+//     }
+
+//     a {
+//         text-decoration: none;
+//         color: #fff;
+//     }
+
+//     #close {
+//         position: absolute;
+//         top: 0px;
+//         right: 0px;
+//         font-size: 2rem;
+//         color: #fff;
+//     }
+
+//     &.show {
+//         transform: translate(0);
+//         pointer-events: painted;
+//     }
+// }
+
 .subtxt {
     font-size: 14px;
     letter-spacing: 3px;
@@ -95,7 +147,7 @@ header {
 
     .toptxt {
         position: absolute;
-        top: 250px;
+        top: 180px;
         letter-spacing: 7px;
         font-size: 2.5rem;
         font-weight: 100;
@@ -103,3 +155,90 @@ header {
         padding-left: 10px;
     }
 }
+
+.subtxt {
+    font-size: 14px;
+    letter-spacing: 3px;
+
+    .txt1 {
+        position: absolute;
+        top: 260px;
+        left: 40px;
+        // text-decoration: underline;
+    }
+
+    .txt2 {
+        position: absolute;
+        top: 280px;
+        left: 75px;
+        // text-decoration: underline;
+    }
+}
+
+// top３用
+// .subtxt {
+//     font-size: 14px;
+//     letter-spacing: 3px;
+
+//     .txt1 {
+//         position: absolute;
+//         top: 260px;
+//         left: 40px;
+//         // text-decoration: underline;
+//     }
+
+//     .txt2 {
+//         position: absolute;
+//         top: 280px;
+//         left: 75px;
+//         // text-decoration: underline;
+//     }
+// }
+
+#top {
+    width: 80%;
+    
+    .toptxt {
+        position: absolute;
+        top: 40px;
+        left: 20px;
+        letter-spacing: 5px;
+        font-size: 1.5rem;
+        font-weight: 500;
+        padding-left: 10px;
+    }
+    .toptxt2 {
+        position: absolute;
+        top: 70px;
+        left: 50px;
+        letter-spacing: 5px;
+        font-size: 1.5rem;
+        font-weight: 500;
+        padding-left: 10px;
+    }
+}
+
+// top３用
+// #top {
+//     width: 80%;
+    
+//     .toptxt {
+//         position: absolute;
+//         top: 40px;
+//         right: 50px;
+//         letter-spacing: 5px;
+//         font-size: 1.5rem;
+//         font-weight: 500;
+//         padding-left: 10px;
+//     }
+//     .toptxt2 {
+//         position: absolute;
+//         top: 70px;
+//         right:20px;
+//         letter-spacing: 5px;
+//         font-size: 1.5rem;
+//         font-weight: 500;
+//         padding-left: 10px;
+//     }
+// }
+
