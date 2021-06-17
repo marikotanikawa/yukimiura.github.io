@@ -27,13 +27,9 @@ body {
   margin-bottom: 80px;
 }
 
-#price_contents h5 {
-  font-size: 16px;
-}
-
 #price_contents .set {
   font-weight: 300;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 #price_contents p {
