@@ -2,18 +2,18 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Barlow", sans-serif;
-  background-image: url(img/top1.png);
+  background-image: url(img/mainimg.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  color: #666666;
+  color: #DDDDDD;
 }
 
 header {
   position: fixed;
   top: 0;
-  right: 0;
+  left: 0;
 }
 
 header #open {
@@ -27,14 +27,14 @@ header #open.hide {
 .overlay {
   position: fixed;
   top: 0;
-  right: 0;
-  height: 50%;
+  left: 0;
+  height: 35%;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#000000ff), to(#ffffff0a));
   background-image: linear-gradient(to bottom, #000000ff 0%, #ffffff0a 100%);
   text-align: center;
   pointer-events: none;
-  -webkit-transform: translateX(250px);
-          transform: translateX(250px);
+  -webkit-transform: translate(-300px);
+          transform: translate(-300px);
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
 }
@@ -56,80 +56,25 @@ header #open.hide {
 .overlay #close {
   position: absolute;
   top: 0px;
-  right: 0px;
+  left: 0px;
   font-size: 2rem;
   color: #fff;
 }
 
 .overlay.show {
-  -webkit-transform: translateX(0);
-          transform: translateX(0);
+  -webkit-transform: translate(0);
+          transform: translate(0);
   pointer-events: painted;
 }
 
-.subtxt {
-  font-size: 14px;
-  letter-spacing: 3px;
-}
-
-.subtxt .txt1 {
-  position: absolute;
-  top: 65px;
-  left: 40px;
-}
-
-.subtxt .txt2 {
-  position: absolute;
-  top: 90px;
-  left: 75px;
-}
-
 #top {
   width: 80%;
 }
 
 #top .toptxt {
   position: absolute;
-  top: 180px;
-  letter-spacing: 7px;
-  font-size: 2.5rem;
-  font-weight: 100;
-  background-image: -webkit-gradient(linear, left top, right top, from(#ffffffff), to(#ffffff0a));
-  background-image: linear-gradient(to right, #ffffffff 0%, #ffffff0a 100%);
-  padding-left: 10px;
-}
-
-.subtxt {
-  font-size: 14px;
-  letter-spacing: 3px;
-}
-
-.subtxt .txt1 {
-  position: absolute;
-  top: 480px;
-  left: 40px;
-  color: #444444;
-  background: rgba(255, 255, 255, 0.4);
-  padding: 2px;
-}
-
-.subtxt .txt2 {
-  position: absolute;
-  top: 505px;
-  left: 75px;
-  color: #444444;
-  background: rgba(255, 255, 255, 0.4);
-  padding: 2px;
-}
-
-#top {
-  width: 80%;
-}
-
-#top .toptxt {
-  position: absolute;
-  top: 40px;
-  left: 20px;
+  top: 30px;
+  right: 50px;
   letter-spacing: 5px;
   font-size: 1.5rem;
   font-weight: 500;
@@ -138,12 +83,35 @@ header #open.hide {
 
 #top .toptxt2 {
   position: absolute;
-  top: 70px;
-  left: 50px;
+  top: 60px;
+  right: 20px;
   letter-spacing: 5px;
   font-size: 1.5rem;
   font-weight: 500;
   padding-left: 10px;
+}
+
+.subtxt {
+  font-size: 14px;
+  letter-spacing: 3px;
+}
+
+.subtxt .txt1 {
+  position: absolute;
+  top: 350px;
+  left: 40px;
+  color: #FFF;
+  background: rgba(100, 100, 100, 0.4);
+  padding: 2px;
+}
+
+.subtxt .txt2 {
+  position: absolute;
+  top: 380px;
+  left: 75px;
+  color: #FFF;
+  background: rgba(100, 100, 100, 0.4);
+  padding: 2px;
 }
 
 #menu2 {

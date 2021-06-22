@@ -1,7 +1,7 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: "Barlow", 'Noto Sans JP',sans-serif;
+  font-family: "Barlow", "Noto Sans JP", sans-serif;
   color: #666666;
 }
 
@@ -62,49 +62,51 @@ header #open.hide {
   pointer-events: painted;
 }
 
-#works_contents {
+#about_contents {
   max-width: 599px;
 }
 
-#works_contents .works_title {
+#about_contents .about_img {
   text-align: center;
-  font-weight: 300;
-  letter-spacing: 2px;
-  font-size: 1.5rem;
-  padding: 10px;
-  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
-#works_contents .works_subtxt {
-  margin-bottom: 60px;
+#about_contents .about_img img {
+  width: 50%;
 }
 
-#works_contents .works_subtxt p {
+#about_contents .about_title {
+  text-align: center;
+}
+
+#about_contents .about_title .name {
+  font-size: 14px;
+  letter-spacing: 3px;
+}
+
+#about_contents .about_title .name_sub {
+  font-size: 12px;
+}
+
+#about_contents .abouttxt {
   width: 80%;
   margin: 0 auto;
   font-size: 12px;
-  font-weight: 100;
+  margin-top: 50px;
 }
 
-#works_contents .works_img {
-  text-align: center;
+#about_contents .abouttxt a {
+  text-decoration: underline;
+  color: #666666;
+  font-size: 14px;
 }
 
-#works_contents img {
-  width: 80%;
-  margin-bottom: 50px;
-}
-
-#works_contents img:nth-child(5) {
-  margin-top: 80px;
-}
-
-#works_contents .works_back {
+#about_contents .about_back {
   text-align: center;
   margin: 50px 50px 100px 50px;
 }
 
-#works_contents .works_back a {
+#about_contents .about_back a {
   text-decoration: none;
   color: #666666;
 }
@@ -129,4 +131,4 @@ header #open.hide {
   line-height: 50px;
   color: #fff;
 }
-/*# sourceMappingURL=works.css.map */
+/*# sourceMappingURL=about.css.map */

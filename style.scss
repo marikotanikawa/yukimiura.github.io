@@ -16,17 +16,30 @@ body {
     padding: 0;
     margin: 0;
     font-family: "Barlow", sans-serif;
-    background-image: url(img/top1.png);
+    background-image: url(img/mainimg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    color: #666666;
+    color: #DDDDDD;
 }
+// header {
+//     position: fixed;
+//     top: 0;
+//     right: 0;
+
+//     #open {
+//         font-size: 3rem;
+//         &.hide {
+//             display: none;
+//         }
+//     }
+// }
+
 header {
     position: fixed;
     top: 0;
-    right: 0;
+    left: 0;
 
     #open {
         font-size: 3rem;
@@ -36,67 +49,15 @@ header {
     }
 }
 
-// top３用
-// header {
-//     text-align: left;
-
-//     #open {
-//         font-size: 2rem;
-//         &.hide {
-//             display: none;
-//         }
-//     }
-// }
-
-.overlay {
-    position: fixed;
-    top: 0;
-    right: 0;
-    height: 50%;
-    background-image: linear-gradient(to bottom, #000000ff 0%, #ffffff0a 100%);
-    text-align: center;
-    pointer-events: none;
-    transform: translateX(250px);
-    transition: all 0.4s;
-
-    ul {
-        list-style: none;
-        padding: 30px 30px 30px 30px;
-    }
-
-    li {
-        margin-bottom: 15px;
-    }
-
-    a {
-        text-decoration: none;
-        color: #fff;
-    }
-
-    #close {
-        position: absolute;
-        top: 0px;
-        right: 0px;
-        font-size: 2rem;
-        color: #fff;
-    }
-
-    &.show {
-        transform: translateX(0);
-        pointer-events: painted;
-    }
-}
-
-// top３用
 // .overlay {
 //     position: fixed;
 //     top: 0;
-//     left: 0;
+//     right: 0;
 //     height: 50%;
 //     background-image: linear-gradient(to bottom, #000000ff 0%, #ffffff0a 100%);
 //     text-align: center;
 //     pointer-events: none;
-//     transform: translate(-300px);
+//     transform: translateX(250px);
 //     transition: all 0.4s;
 
 //     ul {
@@ -122,83 +83,103 @@ header {
 //     }
 
 //     &.show {
-//         transform: translate(0);
+//         transform: translateX(0);
 //         pointer-events: painted;
 //     }
 // }
 
-.subtxt {
-    font-size: 14px;
-    letter-spacing: 3px;
 
-    .txt1 {
-        position: absolute;
-        top: 65px;
-        left: 40px;
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 35%;
+    background-image: linear-gradient(to bottom, #000000ff 0%, #ffffff0a 100%);
+    text-align: center;
+    pointer-events: none;
+    transform: translate(-300px);
+    transition: all 0.4s;
+
+    ul {
+        list-style: none;
+        padding: 30px 30px 30px 30px;
     }
 
-    .txt2 {
-        position: absolute;
-        top: 90px;
-        left: 75px;
-    }
-}
-
-#top {
-    width: 80%;
-
-    .toptxt {
-        position: absolute;
-        top: 180px;
-        letter-spacing: 7px;
-        font-size: 2.5rem;
-        font-weight: 100;
-        background-image: linear-gradient(to right, #ffffffff 0%, #ffffff0a 100%);
-        padding-left: 10px;
-    }
-}
-
-.subtxt {
-    font-size: 14px;
-    letter-spacing: 3px;
-
-    .txt1 {
-        position: absolute;
-        top: 480px;
-        left: 40px;
-        color: #444444;
-        background:rgba(255,255,255,0.4);
-        padding: 2px;
-        // text-decoration: underline;
+    li {
+        margin-bottom: 15px;
     }
 
-    .txt2 {
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    #close {
         position: absolute;
-        top: 505px;
-        left: 75px;
-        color: #444444;
-        background:rgba(255,255,255,0.4);
-        padding: 2px;
-        // text-decoration: underline;
+        top: 0px;
+        left: 0px;
+        font-size: 2rem;
+        color: #fff;
+    }
+
+    &.show {
+        transform: translate(0);
+        pointer-events: painted;
     }
 }
 
-// top３用
+
 // .subtxt {
 //     font-size: 14px;
 //     letter-spacing: 3px;
 
 //     .txt1 {
 //         position: absolute;
-//         top: 260px;
+//         top: 65px;
 //         left: 40px;
+//     }
+
+//     .txt2 {
+//         position: absolute;
+//         top: 90px;
+//         left: 75px;
+//     }
+// }
+
+// #top {
+//     width: 80%;
+
+//     .toptxt {
+//         position: absolute;
+//         top: 50px;
+//         letter-spacing: 7px;
+//         font-size: 2.5rem;
+//         font-weight: 100;
+//         padding-left: 10px;
+//     }
+// }
+
+// .subtxt {
+//     font-size: 14px;
+//     letter-spacing: 3px;
+
+//     .txt1 {
+//         position: absolute;
+//         top: 480px;
+//         left: 40px;
+//         color: #444444;
+//         background:rgba(255,255,255,0.4);
+//         padding: 2px;
 //         // text-decoration: underline;
 //     }
 
 //     .txt2 {
 //         position: absolute;
-//         top: 280px;
+//         top: 505px;
 //         left: 75px;
+//         color: #444444;
+//         background:rgba(255,255,255,0.4);
+//         padding: 2px;
 //         // text-decoration: underline;
 //     }
 // }
@@ -208,8 +189,8 @@ header {
     
     .toptxt {
         position: absolute;
-        top: 40px;
-        left: 20px;
+        top: 30px;
+        right: 50px;
         letter-spacing: 5px;
         font-size: 1.5rem;
         font-weight: 500;
@@ -217,8 +198,8 @@ header {
     }
     .toptxt2 {
         position: absolute;
-        top: 70px;
-        left: 50px;
+        top: 60px;
+        right:20px;
         letter-spacing: 5px;
         font-size: 1.5rem;
         font-weight: 500;
@@ -226,14 +207,36 @@ header {
     }
 }
 
-// top３用
+.subtxt {
+    font-size: 14px;
+    letter-spacing: 3px;
+
+    .txt1 {
+        position: absolute;
+        top: 350px;
+        left: 40px;
+        color: #FFF;
+        background:rgba(100,100,100,0.4);
+        padding: 2px;
+    }
+
+    .txt2 {
+        position: absolute;
+        top: 380px;
+        left: 75px;
+        color: #FFF;
+        background:rgba(100,100,100,0.4);
+        padding: 2px;
+    }
+}
+
 // #top {
 //     width: 80%;
     
 //     .toptxt {
 //         position: absolute;
 //         top: 40px;
-//         right: 50px;
+//         left: 20px;
 //         letter-spacing: 5px;
 //         font-size: 1.5rem;
 //         font-weight: 500;
@@ -242,13 +245,15 @@ header {
 //     .toptxt2 {
 //         position: absolute;
 //         top: 70px;
-//         right:20px;
+//         left: 50px;
 //         letter-spacing: 5px;
 //         font-size: 1.5rem;
 //         font-weight: 500;
 //         padding-left: 10px;
 //     }
 // }
+
+
 
 #menu2 {
     width: 100%;

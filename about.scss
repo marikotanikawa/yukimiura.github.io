@@ -32,7 +32,6 @@ header {
     }
 }
 
-
 .overlay {
     position: fixed;
     top: 0;
@@ -72,50 +71,48 @@ header {
     }
 }
 
-
-
-#price_contents {
+#about_contents {
     max-width: 599px;
 
-    .price_menu {
-        width: 80%;
-        margin: 0 auto;
+    .about_img {
+       text-align: center;
+       margin-top: 30px;
+        img {
+            width: 50%;
+        }
     }
 
-    .price_title {
+
+    .about_title {
         text-align: center;
-        font-weight: 300;
-        letter-spacing: 2px;
-        font-size: 1.5rem;
-        padding: 10px;
-        margin-bottom: 50px;
+
+        .name {
+            font-size: 14px;
+            letter-spacing: 3px;
+        }
+
+        .name_sub {
+            font-size: 12px;
+        }
     }
 
-    .menu {
-        margin-bottom: 80px;
-    }
+    .abouttxt {
+        width: 80%;
+        margin:0 auto ;
+        font-size: 12px;
+        margin-top: 50px;
 
-    .set {
-        font-weight: 300;
-        font-size: 14px;
-        // text-decoration: underline;
-
-    }
-
-    p {
-        font-size: 14px;
-        font-weight: 100;
-    }
-
-    .sinpu {
-        margin-bottom: 50px;
+        a  {
+            text-decoration:underline;
+            color: #666666;
+            font-size: 14px;
+        }
     }
     
-
-    .price_back {
+    .about_back {
         text-align: center;
         margin:50px 50px 100px 50px;
-
+    
         a {
             text-decoration: none;
             color: #666666;
