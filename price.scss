@@ -16,7 +16,13 @@ body {
     padding: 0;
     margin: 0;
     font-family: "Barlow", "Noto Sans JP", sans-serif;
-    color: #666666;
+    background-image: url(img/price.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #DDDDDD;
+    // color: #666666;
 }
 
 header {
@@ -77,6 +83,14 @@ header {
 #price_contents {
     max-width: 599px;
 
+    .price_img {
+        text-align: center;
+        margin-top: 30px;
+         img {
+             width: 80%;
+         }
+     }
+
     .price_menu {
         width: 80%;
         margin: 0 auto;
@@ -93,6 +107,10 @@ header {
 
     .menu {
         margin-bottom: 80px;
+        background-color: #fff;
+        opacity: 0.9;
+        padding: 10px;
+        color: #666666;
     }
 
     .set {
