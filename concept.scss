@@ -15,7 +15,7 @@ $pc: 1025px;
 body {
     padding: 0;
     margin: 0;
-    font-family: "Barlow", 'Noto Sans JP',sans-serif;
+    font-family: "Barlow", "Noto Sans JP", sans-serif;
     color: #666666;
 }
 
@@ -31,7 +31,6 @@ header {
         }
     }
 }
-
 
 .overlay {
     position: fixed;
@@ -72,51 +71,57 @@ header {
     }
 }
 
+.concept_title {
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    padding: 10px;
+    margin-bottom: 50px;
+}
 
-#works_contents {
+.concept_img {
     max-width: 599px;
-    .works_title {
-        text-align: center;
-        font-weight: 300;
-        letter-spacing: 2px;
-        font-size: 1.5rem;
-        padding: 10px;
-        margin-bottom: 50px;
+
+    img{
+        width:100%;
     }
-    
-    .works_subtxt {
-        margin-bottom: 60px;
-        
-        p {
-            width: 80%;
-            margin:0 auto;
-            font-size: 12px;
-            font-weight: 100;
-        }
-    }
-    
-    .works_img {
-        text-align: center;
-    }
-    
-    img {
-        width: 80%;
-        margin-bottom: 50px;
-    
-        &:nth-child(5){
-            margin-top: 80px;
-        }
-    }
-    
-    .works_back {
+}
+
+.concept_contents {
+    max-width: 599px;
+
+    .concept_back {
         text-align: center;
         margin:50px 50px 100px 50px;
     
         a {
             text-decoration: none;
             color: #666666;
-    
         }
+    }
+}
+
+.concepttxt {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+
+    .maintxt {
+        font-size: 16px;
+        margin-top: 30px;
+        text-align: center;
+
+    }
+
+    .subtxt {
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    p {
+        font-size: 12px;
     }
 }
 

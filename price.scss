@@ -16,13 +16,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: "Barlow", "Noto Sans JP", sans-serif;
-    background-image: url(img/price.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    color: #DDDDDD;
-    // color: #666666;
+    color: #666666;
 }
 
 header {
@@ -86,8 +80,9 @@ header {
     .price_img {
         text-align: center;
         margin-top: 30px;
-         img {
-             width: 80%;
+        img {
+            width: 80%;
+            margin-bottom: 30px;
          }
      }
 
@@ -107,9 +102,6 @@ header {
 
     .menu {
         margin-bottom: 80px;
-        background-color: #fff;
-        opacity: 0.9;
-        padding: 10px;
         color: #666666;
     }
 

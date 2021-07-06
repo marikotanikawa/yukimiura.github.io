@@ -77,14 +77,23 @@ header #open.hide {
 
 #about_contents .about_title {
   text-align: center;
+  font-weight: 300;
+  letter-spacing: 2px;
+  font-size: 1.5rem;
+  padding: 10px;
+  margin-bottom: 50px;
 }
 
-#about_contents .about_title .name {
+#about_contents .about_name {
+  text-align: center;
+}
+
+#about_contents .about_name .name {
   font-size: 14px;
   letter-spacing: 3px;
 }
 
-#about_contents .about_title .name_sub {
+#about_contents .about_name .name_sub {
   font-size: 12px;
 }
 

@@ -62,26 +62,7 @@ header #open.hide {
   pointer-events: painted;
 }
 
-#price_contents {
-  max-width: 599px;
-}
-
-#price_contents .price_img {
-  text-align: center;
-  margin-top: 30px;
-}
-
-#price_contents .price_img img {
-  width: 80%;
-  margin-bottom: 30px;
-}
-
-#price_contents .price_menu {
-  width: 80%;
-  margin: 0 auto;
-}
-
-#price_contents .price_title {
+.concept_title {
   text-align: center;
   font-weight: 300;
   letter-spacing: 2px;
@@ -90,33 +71,48 @@ header #open.hide {
   margin-bottom: 50px;
 }
 
-#price_contents .menu {
-  margin-bottom: 80px;
-  color: #666666;
+.concept_img {
+  max-width: 599px;
 }
 
-#price_contents .set {
-  font-weight: 300;
-  font-size: 14px;
+.concept_img img {
+  width: 100%;
 }
 
-#price_contents p {
-  font-size: 14px;
-  font-weight: 100;
+.concept_contents {
+  max-width: 599px;
 }
 
-#price_contents .sinpu {
-  margin-bottom: 50px;
-}
-
-#price_contents .price_back {
+.concept_contents .concept_back {
   text-align: center;
   margin: 50px 50px 100px 50px;
 }
 
-#price_contents .price_back a {
+.concept_contents .concept_back a {
   text-decoration: none;
   color: #666666;
+}
+
+.concepttxt {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.concepttxt .maintxt {
+  font-size: 16px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.concepttxt .subtxt {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.concepttxt p {
+  font-size: 12px;
 }
 
 #menu2 {
@@ -139,4 +135,4 @@ header #open.hide {
   line-height: 50px;
   color: #fff;
 }
-/*# sourceMappingURL=price.css.map */
+/*# sourceMappingURL=concept.css.map */
