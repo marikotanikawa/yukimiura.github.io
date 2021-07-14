@@ -98,19 +98,17 @@ header #open.hide {
 
 .subtxt .txt1 {
   position: absolute;
-  top: 350px;
-  left: 40px;
+  top: 250px;
+  left: 10px;
   color: #FFF;
-  background: rgba(100, 100, 100, 0.4);
   padding: 2px;
 }
 
 .subtxt .txt2 {
   position: absolute;
-  top: 380px;
-  left: 75px;
+  top: 270px;
+  left: 40px;
   color: #FFF;
-  background: rgba(100, 100, 100, 0.4);
   padding: 2px;
 }
 
