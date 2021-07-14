@@ -77,7 +77,7 @@ header #open.hide {
   right: 80px;
   letter-spacing: 5px;
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 800;
   padding-left: 10px;
 }
 
@@ -87,7 +87,7 @@ header #open.hide {
   right: 20px;
   letter-spacing: 5px;
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 800;
   padding-left: 10px;
 }
 
@@ -98,17 +98,19 @@ header #open.hide {
 
 .subtxt .txt1 {
   position: absolute;
-  top: 230px;
+  top: 210px;
   left: 10px;
   color: #FFF;
+  font-weight: 600;
   padding: 2px;
 }
 
 .subtxt .txt2 {
   position: absolute;
-  top: 250px;
+  top: 230px;
   left: 40px;
   color: #FFF;
+  font-weight: 600;
   padding: 2px;
 }
 
